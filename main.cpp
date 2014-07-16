@@ -4,6 +4,8 @@
 #include <queue>          // std::queue
 using namespace std;
 
+
+//devuelve el primer elemento de "mi_cola"
 string getPrimerElemento(queue<string> mi_cola)
 {
     return "";
@@ -33,6 +35,7 @@ int getMenor(queue<int> mi_cola)
     return -1;
 }
 
+//devuelve el promedio de todos los elementos de "mi_cola"
 float getPromedio(queue<float> mi_cola)
 {
     return -1.0f;
