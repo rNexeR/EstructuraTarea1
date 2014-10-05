@@ -2,14 +2,15 @@
 #define EVALUADOR_H
 
 #include <iostream>       // std::cin, std::cout
-#include <queue>          // std::queue
+#include <stack>          // std::stack
 using namespace std;
 
 void evaluar();
-int getTamano(queue<string> mi_cola);
-bool existeEnCola(queue<string> mi_cola, string str);
-int getMayor(queue<int> mi_cola);
-int getMenor(queue<int> mi_cola);
-float getPromedio(queue<float> mi_cola);
+string getTope(stack<string> mi_cola);
+int getTamano(stack<string> mi_cola);
+bool existeEnCola(stack<string> mi_cola, string str);
+int getMayor(stack<int> mi_cola);
+int getMenor(stack<int> mi_cola);
+float getPromedio(stack<float> mi_cola);
 
 #endif // EVALUADOR_H

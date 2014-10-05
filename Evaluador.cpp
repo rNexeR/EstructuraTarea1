@@ -1,23 +1,23 @@
 #include "Evaluador.h"
 
-string getPrimerElemento(queue<string> mi_cola);
+string getPrimerElemento(stack<string> mi_cola);
 
 
 void evaluar()
 {
     int nota = 0;
 
-    queue<string>mi_cola_str;
+    stack<string>mi_cola_str;
     mi_cola_str.push("A");
     mi_cola_str.push("B");
     mi_cola_str.push("C");
 
-    queue<string>mi_cola_str2;
+    stack<string>mi_cola_str2;
     mi_cola_str2.push("Hola");
     mi_cola_str2.push("Mundo");
 
-    cout<<"Ejercicio getPrimerElemento:\t";
-    if(getPrimerElemento(mi_cola_str)=="A" && getPrimerElemento(mi_cola_str2)=="Hola")
+    cout<<"Ejercicio getTope:\t\t";
+    if(getTope(mi_cola_str)=="C" && getTope(mi_cola_str2)=="Mundo")
     {
         nota++;
         cout<<"Correcto"<<endl;
@@ -47,12 +47,12 @@ void evaluar()
     }
 
 
-    queue<int>mi_cola_int;
+    stack<int>mi_cola_int;
     mi_cola_int.push(1);
     mi_cola_int.push(2);
     mi_cola_int.push(3);
 
-    queue<int>mi_cola_int2;
+    stack<int>mi_cola_int2;
     mi_cola_int2.push(10);
     mi_cola_int2.push(20);
 
@@ -76,12 +76,12 @@ void evaluar()
         cout<<"Incorrecto"<<endl;
     }
 
-    queue<float>mi_cola_float;
+    stack<float>mi_cola_float;
     mi_cola_float.push(1);
     mi_cola_float.push(2);
     mi_cola_float.push(3);
 
-    queue<float>mi_cola_float2;
+    stack<float>mi_cola_float2;
     mi_cola_float2.push(10);
     mi_cola_float2.push(20);
 
