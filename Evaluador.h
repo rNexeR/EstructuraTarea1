@@ -8,7 +8,7 @@ using namespace std;
 void evaluar();
 string getTope(stack<string> mi_pila);
 int getTamano(stack<string> mi_pila);
-bool existeEnCola(stack<string> mi_pila, string str);
+bool existeEnPila(stack<string> mi_pila, string str);
 int getMayor(stack<int> mi_pila);
 int getMenor(stack<int> mi_pila);
 float getPromedio(stack<float> mi_pila);
