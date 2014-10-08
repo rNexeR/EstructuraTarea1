@@ -18,7 +18,7 @@ int getTamano(stack<string> mi_pila)
 }
 
 //devuelve true si "str" esta dentro de "mi_pila" de lo contrario devuelve false
-bool existeEnCola(stack<string> mi_pila, string str)
+bool existeEnPila(stack<string> mi_pila, string str)
 {
     return false;
 }
