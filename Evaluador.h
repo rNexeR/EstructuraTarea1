@@ -6,11 +6,11 @@
 using namespace std;
 
 void evaluar();
-string getTope(stack<string> mi_cola);
-int getTamano(stack<string> mi_cola);
-bool existeEnCola(stack<string> mi_cola, string str);
-int getMayor(stack<int> mi_cola);
-int getMenor(stack<int> mi_cola);
-float getPromedio(stack<float> mi_cola);
+string getTope(stack<string> mi_pila);
+int getTamano(stack<string> mi_pila);
+bool existeEnCola(stack<string> mi_pila, string str);
+int getMayor(stack<int> mi_pila);
+int getMenor(stack<int> mi_pila);
+float getPromedio(stack<float> mi_pila);
 
 #endif // EVALUADOR_H
