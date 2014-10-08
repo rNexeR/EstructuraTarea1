@@ -37,7 +37,7 @@ void evaluar()
     }
 
     cout<<"Ejercicio existeEnCola:\t\t";
-    if(existeEnCola(mi_cola_str,"B")==true && existeEnCola(mi_cola_str2,"jeje")==false)
+    if(existeEnPila(mi_cola_str,"B")==true && existeEnPila(mi_cola_str2,"jeje")==false)
     {
         nota++;
         cout<<"Correcto"<<endl;
