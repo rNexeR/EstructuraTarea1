@@ -76,17 +76,32 @@ void evaluar()
         cout<<"Incorrecto"<<endl;
     }
 
-    stack<float>mi_cola_float;
-    mi_cola_float.push(1);
-    mi_cola_float.push(2);
-    mi_cola_float.push(3);
+    stack<char>mi_cola_char;
+    mi_cola_char.push('z');
+    mi_cola_char.push('r');
+    mi_cola_char.push('a');
+    mi_cola_char.push('z');
+    mi_cola_char.push('a');
+    mi_cola_char.push('m');
 
-    stack<float>mi_cola_float2;
-    mi_cola_float2.push(10);
-    mi_cola_float2.push(20);
+    stack<char>mi_cola_char2;
+    mi_cola_char2.push('a');
+    mi_cola_char2.push('r');
+    mi_cola_char2.push('a');
+    mi_cola_char2.push('z');
+    mi_cola_char2.push('a');
+    mi_cola_char2.push('a');
 
-    cout<<"Ejercicio getPromedio:\t\t";
-    if(getPromedio(mi_cola_float)==2 && getPromedio(mi_cola_float2)==15)
+    stack<char>mi_cola_char3;
+    mi_cola_char3.push('3');
+    mi_cola_char3.push('q');
+    mi_cola_char3.push('e');
+    mi_cola_char3.push('b');
+    mi_cola_char3.push('z');
+    mi_cola_char3.push('e');
+
+    cout<<"Ejercicio contarLetraA:\t\t";
+    if(contarLetraA(mi_cola_char)==2 && contarLetraA(mi_cola_char2)==4 && contarLetraA(mi_cola_char2)==0)
     {
         nota++;
         cout<<"Correcto"<<endl;

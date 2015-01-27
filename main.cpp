@@ -35,8 +35,8 @@ int getMenor(stack<int> mi_pila)
     return -1;
 }
 
-//devuelve el promedio de todos los elementos de "mi_pila"
-float getPromedio(stack<float> mi_pila)
+//devuelve la cantidad de veces que se encuentra la letra 'A' en "mi_pila"
+int contarLetraA(stack<char> mi_pila)
 {
     return -1;
 }
