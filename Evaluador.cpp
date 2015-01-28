@@ -101,7 +101,7 @@ void evaluar()
     mi_cola_char3.push('e');
 
     cout<<"Ejercicio contarLetraA:\t\t";
-    if(contarLetraA(mi_cola_char)==2 && contarLetraA(mi_cola_char2)==4 && contarLetraA(mi_cola_char2)==0)
+    if(contarLetraA(mi_cola_char)==2 && contarLetraA(mi_cola_char2)==4 && contarLetraA(mi_cola_char3)==0)
     {
         nota++;
         cout<<"Correcto"<<endl;
