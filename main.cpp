@@ -35,7 +35,7 @@ int getMenor(stack<int> mi_pila)
     return -1;
 }
 
-//devuelve la cantidad de veces que se encuentra la letra 'A' en "mi_pila"
+//devuelve la cantidad de veces que se encuentra la letra 'a' minuscula en "mi_pila"
 int contarLetraA(stack<char> mi_pila)
 {
     return -1;
